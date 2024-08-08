@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25.36%,#B923E1);
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+transform: scale(1.05);
+}
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .navbar {
+     margin: 20px 30px;
+     display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+}
+   

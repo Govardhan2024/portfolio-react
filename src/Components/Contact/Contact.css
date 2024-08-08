@@ -1,0 +1,130 @@
+.Contact{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+}
+.letstalk{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+.letstalk h1{
+font-size: 40px;
+font-weight: "500";
+color: bisque;
+}
+.letstalk p{
+    font-size: 20px;
+    font-weight: "400";
+    padding: 10px 10px;
+    width: 40%;
+}
+.contact-details{
+   display: flex;
+  flex-direction: column;
+   gap: 20px;
+   
+}
+.contact-detail{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    font-size: 22px;
+    gap: 10px;
+    margin-top: 30px;
+}
+.contact-right input{
+    border: none;
+    height: 78px;
+    width: 700px;
+    background: #32323C;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.contact-right textarea{
+    border: none;
+    height: 200px;
+    width: 700px;
+    background: white;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.btn-4{
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: linear-gradient(267deg,#DA7C25.36%,#B923E1);
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn-4:hover{
+    transform: scale(1.05);
+    }
+    @media (max-width: 768px) {
+        .Contact {
+          flex-direction: column;
+        }
+      
+        .letstalk {
+          margin-right: 0;
+          margin-bottom: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .contact-right {
+          margin-top: 20px;
+        }
+      
+        .contact-detail {
+          justify-content: center;
+        }
+      
+        .contact-detail p {
+          text-align: center;
+        }
+      
+        .contact-right input,
+        .contact-right textarea {
+          width: 100%;
+        }
+      
+        .btn-4 {
+          width: 100%;
+          padding: 15px 0;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .letstalk h1 {
+          font-size: 24px;
+        }
+      
+        .letstalk p {
+          font-size: 16px;
+        }
+      
+        .contact-detail img {
+          width: 20px;
+          height: 20px;
+        }
+      
+        .btn-4 {
+          font-size: 16px;
+        }
+      }
